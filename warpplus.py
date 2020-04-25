@@ -40,7 +40,7 @@ if __name__ == "__main__":
           "NOTE:You can edit the time.sleep and set the number of seconds\n "
           "to wait for the page load according to your internet speed\n\n"
           "Made with <3 by ForceGT(Find me on Github) \n\n")
-    key = input("Enter the key: ")
+    key = input("Enter the ID: ")
     n = int(input("Enter the number of times you want the script to run: "))
     getthefreebies()
     print(f"Script Count:{count}")
