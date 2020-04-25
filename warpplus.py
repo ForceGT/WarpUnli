@@ -13,9 +13,13 @@ def getthefreebies():
 
 
 def runagain():
-    button = firefox.find_element_by_css_selector("#restart-bar > button:nth-child(1)")
-    button.click()
-    getthefreebies()
+    try:
+        button = firefox.find_element_by_css_selector("#restart-bar > button:nth-child(1)")
+        button.click()
+    except Exception:
+        firefox.refresh()
+    finally:
+        getthefreebies()
 
 
 if __name__ == "__main__":
