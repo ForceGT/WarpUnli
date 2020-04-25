@@ -36,6 +36,6 @@ if __name__ == "__main__":
     getthefreebies()
     for i in range(0, n - 1):
         # print(f"Here goes Run No {i + 1}")
-        time.sleep(10)
+        time.sleep(40)
         runagain()
     print(f"\n\nThe script ran for {n} time(s).\n Total data credited is: {2 * n} GB")
