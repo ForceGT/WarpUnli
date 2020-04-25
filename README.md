@@ -1,4 +1,4 @@
-## Warp+ Unlimied Referral Script
+## Warp+ Unlimited Referral Script
 
 ### Requirements
 -Any version of Python
